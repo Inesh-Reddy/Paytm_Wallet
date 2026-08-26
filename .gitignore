@@ -1,0 +1,117 @@
+# ============================================
+# Dependencies
+# ============================================
+node_modules/
+
+
+# ============================================
+# Build / Compiled Output
+# ============================================
+dist/
+build/
+coverage/
+
+
+# ============================================
+# Environment Variables / Secrets
+# ============================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Keep an example environment file in Git
+!.env.example
+
+
+# ============================================
+# Prisma
+# ============================================
+# Prisma generated client
+node_modules/.prisma/
+node_modules/@prisma/client/
+
+# Prisma local/dev database files
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+
+# ============================================
+# Logs
+# ============================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# ============================================
+# OS Files
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+
+# ============================================
+# IDE / Editors
+# ============================================
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+.idea/
+*.iml
+
+
+# ============================================
+# TypeScript
+# ============================================
+*.tsbuildinfo
+
+
+# ============================================
+# Testing
+# ============================================
+.nyc_output/
+jest-report/
+test-results/
+
+
+# ============================================
+# Temporary Files
+# ============================================
+tmp/
+temp/
+*.tmp
+*.temp
+
+
+# ============================================
+# Runtime
+# ============================================
+*.pid
+*.seed
+
+
+# ============================================
+# Package Manager
+# ============================================
+.pnpm-debug.log*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
