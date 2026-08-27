@@ -1,9 +1,11 @@
-import { config } from "dotenv";
+import dotenv from "dotenv";
+import { createApp } from "./app.js";
 
-configDotenv();
+dotenv.config();
 
-console.log(`Database Url: ${process.env.DATABASE_URL}`);
+const PORT = process.env.PORT || 3000;
+const app = createApp();
 
-function configDotenv() {
-  config();
-}
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
